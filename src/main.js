@@ -4,9 +4,11 @@ import Methods from './2-Methods.vue'
 import VModel from './3-VModel.vue'
 import VIf from './4-VIf.vue'
 import VFor from './5-VFor.vue'
+import BasicComponent from './6-BasicComponent.vue'
 
 // createApp(DeclarativeRendering).mount('#app')
 // createApp(Methods).mount('#app')
 // createApp(VModel).mount('#app')
 // createApp(VIf).mount('#app')
-createApp(VFor).mount('#app')
+// createApp(VFor).mount('#app')
+createApp(BasicComponent).mount('#app')
