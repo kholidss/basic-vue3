@@ -8,6 +8,7 @@ import BasicComponent from './6-BasicComponent.vue'
 import PropsInComponent from './7-PropsInComponent.vue'
 import ComponentLoop from './8-ComponentLoop.vue'
 import VOnce from './9-VOnce.vue'
+import VHTML from './10-VHTML.vue'
 
 // createApp(DeclarativeRendering).mount('#app')
 // createApp(Methods).mount('#app')
@@ -17,4 +18,5 @@ import VOnce from './9-VOnce.vue'
 // createApp(BasicComponent).mount('#app')
 // createApp(PropsInComponent).mount('#app')
 // createApp(ComponentLoop).mount('#app')
-createApp(VOnce).mount('#app')
+// createApp(VOnce).mount('#app')
+createApp(VHTML).mount('#app')
