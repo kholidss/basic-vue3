@@ -6,6 +6,7 @@ import VIf from './4-VIf.vue'
 import VFor from './5-VFor.vue'
 import BasicComponent from './6-BasicComponent.vue'
 import PropsInComponent from './7-PropsInComponent.vue'
+import ComponentLoop from './8-ComponentLoop.vue'
 
 // createApp(DeclarativeRendering).mount('#app')
 // createApp(Methods).mount('#app')
@@ -13,4 +14,5 @@ import PropsInComponent from './7-PropsInComponent.vue'
 // createApp(VIf).mount('#app')
 // createApp(VFor).mount('#app')
 // createApp(BasicComponent).mount('#app')
-createApp(PropsInComponent).mount('#app')
+// createApp(PropsInComponent).mount('#app')
+createApp(ComponentLoop).mount('#app')
