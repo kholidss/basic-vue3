@@ -9,6 +9,7 @@ import PropsInComponent from './7-PropsInComponent.vue'
 import ComponentLoop from './8-ComponentLoop.vue'
 import VOnce from './9-VOnce.vue'
 import VHTML from './10-VHTML.vue'
+import Computed from './11-Computed.vue'
 
 // createApp(DeclarativeRendering).mount('#app')
 // createApp(Methods).mount('#app')
@@ -19,4 +20,5 @@ import VHTML from './10-VHTML.vue'
 // createApp(PropsInComponent).mount('#app')
 // createApp(ComponentLoop).mount('#app')
 // createApp(VOnce).mount('#app')
-createApp(VHTML).mount('#app')
+// createApp(VHTML).mount('#app')
+createApp(Computed).mount('#app')
