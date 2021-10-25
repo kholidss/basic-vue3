@@ -10,6 +10,7 @@ import ComponentLoop from './8-ComponentLoop.vue'
 import VOnce from './9-VOnce.vue'
 import VHTML from './10-VHTML.vue'
 import Computed from './11-Computed.vue'
+import ComputedSetterGetter from './12-ComputedSetterGetter.vue'
 
 // createApp(DeclarativeRendering).mount('#app')
 // createApp(Methods).mount('#app')
@@ -21,4 +22,5 @@ import Computed from './11-Computed.vue'
 // createApp(ComponentLoop).mount('#app')
 // createApp(VOnce).mount('#app')
 // createApp(VHTML).mount('#app')
-createApp(Computed).mount('#app')
+// createApp(Computed).mount('#app')
+createApp(ComputedSetterGetter).mount('#app')
